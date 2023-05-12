@@ -1,0 +1,31 @@
+// console.log("hi");
+let d= new Date();
+console.log(d);
+console.log(d.getDay());
+ console.log(d.getMonth());
+console.log(d.getHours());
+console.log(d.getTime());
+console.log(d.getMinutes());
+console.log(d.getSeconds());
+console.log(d.getMilliseconds());
+
+d=new Date("03/20/1999 22:33:12");
+// console.log(d);
+// console.log(d.getHours());
+// console.log(d.getTime());
+// console.log(d.getMinutes());
+// console.log(d.getSeconds());
+// console.log(d.getFullYear());
+// console.log(d.getMonth());
+// console.log(d.getDay());
+
+d.setDate(28);
+// console.log(d.getDate());
+d.setFullYear(2000);
+// console.log(d.getFullYear());
+d.setHours(17);
+console.log(d.getHours());
+d.setMinutes(55);
+console.log(d.getMinutes());
+d.setMonth(05);
+console.log(d.getMonth());
